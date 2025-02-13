@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Habibi } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { lazy, Suspense } from "react";
 const Navbar = lazy(() => import("./components/Navbar"));

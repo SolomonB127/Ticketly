@@ -58,7 +58,7 @@ const Page = () => {
     };
 
     const validateForm = () => {
-        let newErrors: { [key: string]: string } = {};
+        const newErrors: { [key: string]: string } = {};
         if (!image) newErrors.image = "Profile picture is required";
         if (!fullName.trim()) newErrors.fullName = "Full Name is required";
         if (!email.trim()) newErrors.email = "Email is required";
